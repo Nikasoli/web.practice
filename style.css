@@ -59,7 +59,6 @@ a {
   position: relative;
   display: flex;
   align-items: center;
-
   border-left: 1px solid rgb(204, 198, 198);
 }
 .nav-bar__about {
@@ -114,7 +113,7 @@ a {
   content: "";
   bottom: 0px;
   display: inline-block;
-  height: 3px;
+  height: 2px;
   background-color: tomato;
   position: absolute;
   bottom: 0;
@@ -132,7 +131,7 @@ a {
   content: "";
   bottom: 0px;
   display: inline-block;
-  height: 3px;
+  height: 2px;
   background-color: tomato;
   position: absolute;
   bottom: 0;
@@ -150,7 +149,7 @@ a {
   content: "";
   bottom: 0px;
   display: inline-block;
-  height: 3px;
+  height: 2px;
   background-color: tomato;
   position: absolute;
   bottom: 0;
@@ -168,7 +167,7 @@ a {
   content: "";
   bottom: 0px;
   display: inline-block;
-  height: 3px;
+  height: 2px;
   background-color: tomato;
   position: absolute;
   bottom: 0;
@@ -186,7 +185,7 @@ a {
   content: "";
   bottom: 0px;
   display: inline-block;
-  height: 3px;
+  height: 2px;
   background-color: tomato;
   position: absolute;
   bottom: 0;
@@ -204,7 +203,7 @@ a {
   content: "";
   bottom: 0px;
   display: inline-block;
-  height: 3px;
+  height: 2px;
   background-color: tomato;
   position: absolute;
   bottom: 0;
@@ -222,7 +221,7 @@ a {
   content: "";
   bottom: 0px;
   display: inline-block;
-  height: 3px;
+  height: 2px;
   background-color: tomato;
   position: absolute;
   bottom: 0;
