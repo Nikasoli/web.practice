@@ -10,6 +10,73 @@
     />
     <link href="https://fonts.cdnfonts.com/css/iranyekan" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      .highlight-container {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+        max-width: 1336px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .highlight-container__content {
+        padding-top: 16px;
+        font-family: "IRANYekan", sans-serif;
+        display: flex;
+      }
+      .highlight-one__container {
+        width: auto;
+        height: auto;
+        margin-left: 24px;
+        position: relative;
+        display: block;
+      }
+      .highlight-one__content {
+        margin-left: 0;
+        cursor: pointer;
+        width: 84px;
+        margin-right: 8px;
+        display: block;
+      }
+      .circle-around__purple {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        background: linear-gradient(315deg, #e03d96, #7d4c9e);
+        border-radius: 50%;
+      }
+      .circle-around__white {
+        width: calc(100% - 4px);
+        background-color: white;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .photo-one__circle {
+        border-radius: 99999px;
+        line-height: 0;
+        background: linear-gradient(315deg, #e03d96, #7d4c9e);
+        width: calc(100% - 6px);
+        height: calc(100% - 6px);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .photo-two__circle {
+        object-fit: cover;
+        border-radius: 99999px;
+        width:30px;
+        height:30px;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+      }
+    </style>
   </head>
   <body dir="rtl">
     <header>
@@ -52,7 +119,14 @@
             <div class="highlight-one__content">
               <div class="circle-around__purple"></div>
               <div class="circle-around__white"></div>
-              <div class="photo__circle"><img src="" alt="" /></div>
+              <div class="photo-one__circle">
+                <div class="photo-two__circle">
+                  <img
+                    src="asests/img/photo/493105089ed549e9932d067c65ac9178"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
